@@ -1,0 +1,32 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Local data files
+data/raw/*
+data/processed/*
+
+# Allow directory placeholders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Generated model artifacts
+models/
+*.joblib
+*.pkl
+
+# Generated reports
+reports/figures/*
